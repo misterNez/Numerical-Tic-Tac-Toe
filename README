@@ -1,0 +1,35 @@
+Author: Nick Nesbit
+Professor: Mark Hauschild
+Date: 3/13/2018
+
+
+Description:
+
+	Artificial Intelligence: CS 4300
+	Project #2: Numerical Tic-Tac-Toe
+
+	There are two players: evens: [2,4,6,8,10,12,14,16] and odds: [1,3,5,7,9,11,13,15].
+	Playing on a 4x4 board, the goal is create a straight line of 4 cells (horizontal, vertical, or diagonal) that sums to 34.
+	Implemented in two ways: User vs AI, and AI vs AI.
+	
+Solution Method:
+
+	The program implements a minimax algorithm to determine the best move at any given state.
+	A state is represented with a 16-element integer array.
+	
+Environment:
+
+	Developed using Eclipse IDE on Windows 10, using 64-bit Lenovo laptop.
+	See Makefile for compilation details.
+
+Files:
+
+	main.cpp:				Main driver file.
+	
+	tictactoe.h: 			Declares structure for the TicTacToe class.
+	
+	tictactoe.cpp: 			Defines methods for the TicTacToe class.
+	
+Problem:
+
+	Checking validity of user input may not be perfect.
